@@ -1,14 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UTFPR</title>
-    <link rel="stylesheet" href="/dist/output.css">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trending Products</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <h1 class="text-center">UTFPR</h1>
-<h1></h1>
+<body class="bg-gray-50">
+
+  <div class="max-w-screen-xl mx-auto p-4">
+    <!-- Title Section -->
+    <div class="text-center mb-8">
+      <h3 class="text-2xl font-bold text-gray-800">Trending Products</h3>
+      <p class="text-gray-600 mt-2">
+        Discover the Hottest Picks: Elevate Your Style with Our Curated Collection of Trending Women's Fashion Products.
+      </p>
+    </div>
+
+    <!-- Products Grid -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+      <!-- Product Item -->
+      <div class="bg-white rounded-lg shadow-md overflow-hidden text-center">
+        <img src="/img/product-1.jpg.png" alt="White Dress" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h3 class="font-semibold text-gray-800">White Dress</h3>
+          <p class="text-gray-600 mt-1">$250</p>
+        </div>
+      </div>
+
+      <!-- Repeat for other products -->
+      <div class="bg-white rounded-lg shadow-md overflow-hidden text-center">
+        <img src="/img/product-2.jpg.png" alt="Guess Watch" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h3 class="font-semibold text-gray-800">Guess Watch</h3>
+          <p class="text-gray-600 mt-1">$350</p>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-lg shadow-md overflow-hidden text-center">
+        <img src="/img/product-3.jpg.png" alt="Black Purse" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h3 class="font-semibold text-gray-800">Black Purse</h3>
+          <p class="text-gray-600 mt-1">$450</p>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-lg shadow-md overflow-hidden text-center">
+        <img src="/img/product-4.jpg.png" alt="Gucci Bag" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h3 class="font-semibold text-gray-800">Gucci Bag</h3>
+          <p class="text-gray-600 mt-1">$1200</p>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-lg shadow-md overflow-hidden text-center">
+        <img src="/img/product-5.jpg.png" alt="Tapered Jeans" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h3 class="font-semibold text-gray-800">Tapered Jeans</h3>
+          <p class="text-gray-600 mt-1">$300</p>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-lg shadow-md overflow-hidden text-center">
+        <img src="/img/product-6.jpg.png" alt="Sunglasses" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h3 class="font-semibold text-gray-800">Sunglasses</h3>
+          <p class="text-gray-600 mt-1">$250</p>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-lg shadow-md overflow-hidden text-center">
+        <img src="/img/product-7.jpg.png" alt="Brown T-Shirt" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h3 class="font-semibold text-gray-800">Brown T-Shirt</h3>
+          <p class="text-gray-600 mt-1">$149</p>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-lg shadow-md overflow-hidden text-center">
+        <img src="/img/product-8.jpg.png" alt="Beige Heels" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h3 class="font-semibold text-gray-800">Beige Heels</h3>
+          <p class="text-gray-600 mt-1">$350</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Load More Button -->
+    <div class="text-center mt-8">
+      <button class="px-6 py-2 bg-red-600 text-white rounded-full hover:bg-red-700">
+        Load More
+      </button>
+    </div>
+  </div>
+
 </body>
 </html>
