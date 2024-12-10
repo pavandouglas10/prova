@@ -8,11 +8,13 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-pink-50 max-w 1280px">
-    <header class="py-4 bg-white shadow">
-        <div class="container mx-auto px-4">
-            <h4 class="text-xl font-bold text-gray-800">UTFPR <span class="text-pink-500">.</span></h4>
-        </div>
-    </header>
+  <header class="py-4 bg-white shadow">
+    <div class="container mx-auto px-4">
+        <h4 class="text-xl font-bold text-gray-800 text-center">
+            UTFPR <span class="text-pink-500">.</span>
+        </h4>
+    </div>
+</header>
 
     <div class="container mx-auto px-4 mt-8">
         <div class="flex flex-col lg:flex-row items-center bg-pink-100 p-8 rounded-lg shadow-lg">
@@ -111,6 +113,7 @@
     </div>
   </div>
   <div class="max-w-screen-xl mx-auto p-4">
+
     <!-- titulo -->
     <div class="text-center mb-8">
       <h3 class="text-2xl font-bold text-gray-800">Trending Products</h3>
@@ -190,7 +193,7 @@
 
     <!-- botão -->
     <div class="text-center mt-8">
-      <button class="px-6 py-2 bg-red-600 text-white rounded-full hover:bg-red-700">
+      <button class="bg-red-700 text-white font-bold py-2 px-4 rounded-2xl hover:bg-red-700">
         Load More
       </button>
     </div>
@@ -245,43 +248,7 @@
       </div>
     </div>
   </div>
-  <footer class="bg-gray-800 text-gray-200 py-8">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <!-- Contact Info -->
-            <div>
-                <h3 class="text-lg font-semibold text-white mb-4">CONTACT INFO</h3>
-                <p class="text-sm">123, London Bridge Street, London</p>
-                <p class="text-sm">support@Lebaba.com</p>
-                <p class="text-sm">(+012) 3456 789</p>
-            </div>
-
-            <!-- Company -->
-            <div>
-                <h3 class="text-lg font-semibold text-white mb-4">COMPANY</h3>
-                <ul class="space-y-2">
-                    <li><a href="#" class="text-sm hover:text-gray-400">Home</a></li>
-                    <li><a href="#" class="text-sm hover:text-gray-400">About Us</a></li>
-                    <li><a href="#" class="text-sm hover:text-gray-400">Work With Us</a></li>
-                    <li><a href="#" class="text-sm hover:text-gray-400">Our Blog</a></li>
-                    <li><a href="#" class="text-sm hover:text-gray-400">Terms & Conditions</a></li>
-                </ul>
-            </div>
-
-            <!-- Useful Links -->
-            <div>
-                <h3 class="text-lg font-semibold text-white mb-4">USEFUL LINK</h3>
-                <ul class="space-y-2">
-                    <li><a href="#" class="text-sm hover:text-gray-400">Help</a></li>
-                    <li><a href="#" class="text-sm hover:text-gray-400">Track My Order</a></li>
-                    <li><a href="#" class="text-sm hover:text-gray-400">Men</a></li>
-                    <li><a href="#" class="text-sm hover:text-gray-400">Women</a></li>
-                    <li><a href="#" class="text-sm hover:text-gray-400">Dresses</a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</footer>
+  
  <div class="container mx-auto px-4 mt-8 grid grid-cols-1 md:grid-cols-2 gap-6">
   <div class="overflow-hidden rounded-lg shadow-lg">
       <img src="/img/fashion1.png" alt="Fashion Look 1" class="w-full h-auto" />
@@ -290,17 +257,76 @@
       <img src="/img/fashion2.png" alt="Fashion Look 2" class="w-full h-auto" />
    </div>
 </div>
+
 <!-- Imagens adicionais -->
 <div class="container mx-auto px-4 mt-8 grid grid-cols-1 md:grid-cols-2 gap-6">
   <!-- Primeira imagem -->
   <div class="overflow-hidden rounded-lg shadow-lg">
-      <img src="/img/product-1.jpg.png" alt="Product 1" class="w-full h-auto" />
+      <img src="/img/product-1.jpg.png" alt="Product 1" class="w-full h-48 object-cover mx-auto" />
   </div>
   <!-- Segunda imagem -->
   <div class="overflow-hidden rounded-lg shadow-lg">
-      <img src="/img/product-2.jpg.png" alt="Product 2" class="w-full h-auto" />
+      <img src="/img/product-2.jpg.png" alt="Product 2" class="w-full h-48 object-cover mx-auto" />
   </div>
 </div>
-</body>
-</html>
+
+
+<footer class="bg-gray-800 text-gray-200 py-8 mt-8"> 
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <!-- Contact Info -->
+          <div>
+              <h3 class="text-lg font-semibold text-white mb-4">CONTACT INFO</h3>
+              <p class="text-sm">123, London Bridge Street, London</p>
+              <p class="text-sm">support@Lebaba.com</p>
+              <p class="text-sm">(+012) 3456 789</p>
+
+              <!-- Social Media Links -->
+              <div class="mt-4">
+                  <h4 class="text-sm font-semibold text-white">FOLLOW US</h4>
+                  <div class="flex justify-start space-x-4 mt-2">
+                      <a href="#" class="text-gray-400 hover:text-gray-300"><i class="fab fa-facebook-f"></i> Facebook</a>
+                      <a href="#" class="text-gray-400 hover:text-gray-300"><i class="fab fa-instagram"></i> Instagram</a>
+                      <a href="#" class="text-gray-400 hover:text-gray-300"><i class="fab fa-twitter"></i> Twitter</a>
+                      <a href="#" class="text-gray-400 hover:text-gray-300"><i class="fab fa-pinterest"></i> Pinterest</a>
+                  </div>
+              </div>
+          </div>
+
+          <!-- Company -->
+          <div>
+              <h3 class="text-lg font-semibold text-white mb-4">COMPANY</h3>
+              <ul class="space-y-2">
+                  <li><a href="#" class="text-sm hover:text-gray-400">Home</a></li>
+                  <li><a href="#" class="text-sm hover:text-gray-400">About Us</a></li>
+                  <li><a href="#" class="text-sm hover:text-gray-400">Work With Us</a></li>
+                  <li><a href="#" class="text-sm hover:text-gray-400">Our Blog</a></li>
+                  <li><a href="#" class="text-sm hover:text-gray-400">Terms & Conditions</a></li>
+              </ul>
+          </div>
+
+          <!-- Useful Links -->
+          <div>
+              <h3 class="text-lg font-semibold text-white mb-4">USEFUL LINK</h3>
+              <ul class="space-y-2">
+                  <li><a href="#" class="text-sm hover:text-gray-400">Help</a></li>
+                  <li><a href="#" class="text-sm hover:text-gray-400">Track My Order</a></li>
+                  <li><a href="#" class="text-sm hover:text-gray-400">Men</a></li>
+                  <li><a href="#" class="text-sm hover:text-gray-400">Women</a></li>
+                  <li><a href="#" class="text-sm hover:text-gray-400">Dresses</a></li>
+              </ul>
+          </div>
+      </div>
+
+      <!-- Subscribe to Newsletter -->
+      <div class="mt-8 text-center">
+          <h3 class="text-lg font-semibold">Subscribe to Our Newsletter</h3>
+          <p class="text-sm mt-2">Get the latest updates on trends, discounts, and new arrivals.</p>
+          <form class="mt-4 flex flex-col sm:flex-row justify-center gap-2">
+              <input type="email" placeholder="Enter your email" class="px-4 py-2 rounded-lg w-full sm:w-auto">
+              <button type="submit" class="bg-pink-500 px-6 py-2 rounded-lg text-white hover:bg-pink-600 transition">Subscribe</button>
+          </form>
+      </div>
+  </div>
+</footer>
 
